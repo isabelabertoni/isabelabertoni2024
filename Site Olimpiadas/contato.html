@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+	<head>
+         <title>CONTATO</title>
+	     <meta charset="utf-8"/> 
+		 <meta name="viewport" content="width=device-width, inicial-scale=1"/> 
+         <meta name="description" content="contato1.">
+         <meta name="keywords" content="Contato">
+		 <link rel="icon"  type="image/jpg" href=""/> 
+		 <link rel="stylesheet" type="text/css" href="estilo.css"> 
+         <script language="javascript" type="text/javascript">
+          function validacontato() { // inicio da função para validar campos, acionada ao clicar o botão enviar
+          var nome = contato1.nome.value;
+          var email = contato1.email.value;
+          var nota = contato1.nota.value;
+    
+
+        if (nome == "") {
+           alert('Por favor, preencha o campo com seu nome!');
+           contato1.nome.focus();
+        return false;
+        }
+
+        if (email == "") {
+           alert('Por favor, preencha o campo com seu email');
+           contato1.email.focus();
+        return false;
+        }
+
+        if (nota == "") {
+            alert('Por favor, selecione uma nota para o site!');
+           contato1.nota.focus();
+        return false;
+        }
+        // Se todas as validações forem válidas, envia os dados do formulário e exibe mensagem sem direcionar tela
+        alert("Dados enviados com sucesso!");
+        contato1.reset(); //função JS reset campos
+
+    }//FIM FUNÇÃO
+    </script> 
+    </head>
+	<body>
+		<div id="menu">
+				  <ul id="nav">
+					 <li><a href="index.html">HOME</a></li>
+					 <li><a href="sobre.html">SOBRE</a></li>
+					 <li><a href="destaque.html">DESTAQUE</a></li>
+					 <li><a href="desafios.html">DESAFIOS</a></li>
+					 <li><a href="medalhas.html">MEDALHAS</a></li>
+					 <li><a href="contato.html" class="ativa">CONTATO</a></li>
+				  </ul>
+		   </div>
+		   <div id="section5">
+			<br>
+			<br>
+            <center>
+			<h2>Ficou com alguma dúvida? Achou algum problema?</h2><br>
+            <h1>Nos contate!</h1>
+            </center>
+            <br>
+            <center>
+                     <form name="contato1" action="#" method="post" class="article14"><!--nome form para validar JS-->
+                     <table border="0">
+                           Nome:<br><input type="text " name="nome" id="text1" class="campo" autofocus /><br><br>  
+                           E-mail:<br><input type="email" name="email" id="text2" class="campo" autofocus /><br><br>
+                           Nota de avaliação do site:<br><for="nota" autofocus/>
+                           <select id="nota" class="campo" required>
+                            <option value="">Selecione uma nota</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                          </select>
+                          <br><br>
+                           Deixe seu comentário:<br><textarea  id="textarea" name="textarea" rows ="10" class="campo" cols="52"></textarea><br>
+                           <input type="submit"  onclick="return validacontato()" value="Enviar" class="botao">
+                           <input type="reset" name="limpar" value="Limpar" class="botao">
+                  </table>
+                </form>
+            </center>
+              <br>
+              <br>
+            <div id="footer1">
+	<center><h5>Isabela Bertoni - 2024 - &copy Todos os direitos reservados.<br>
+	<i>Trabalho acadêmico sem fins lucrativos</i></h5></center>
+	<div align="right">
+		<a href="#"><img src="img/sobe ginastica.png" width="8%" class="rodape1"></a>
+	</div>
+  </div>
+</body>
+</html>
+		   

@@ -1,0 +1,491 @@
+/*Arquivo CSS PETVET  - página HOME*/ 
+
+*{
+   margin: 0px;
+   padding: 0px;
+   }
+   
+ body{
+     background:hsl(0, 0%, 100%);
+     font-family: arial;
+	   margin-top: 5px;
+	}  
+
+/*Incio do HOME*/
+/*início do cabeçalho */
+#menu{ /*Mexe com o quadro amarelo*/
+width: 900px;
+height: 90px;
+margin: 10px auto;
+background:#fffc54;
+border-radius: 10px; /* Bordas arredondadas para os links */
+}
+
+#menu h1{
+display: block; /*bloqueia linha*/
+float:left;
+     }
+
+#nav{ 
+	list-style:none; /*retira marcadores*/
+	padding-left: 0px;
+	display: block;
+	float: left;
+	margin-left: -5px; /*Leva as palavras do menu pra direita*/
+	margin-top:34px;/*Leva as palavras para baixo+ e para cima-*/  
+	  }
+
+#nav li {
+	float:left;
+	margin-left: 60px;
+		  }
+
+#nav a { /*Mexe com a linha embaixo das palavras do menu*/
+	text-decoration: none; /*tira o sublinhado do link*/
+	text-transform: uppercase;
+	padding-top: 20px;
+	color:#000000;
+	font-weight: bold;
+  font-size: 20px;
+  font-family: 'Trebuchet MS';
+		  }
+
+#nav a:hover{
+  border-bottom: 5px solid #0004ff;
+     }
+    
+ul#nav a.ativa{
+  border-bottom: 5px solid #09ff00;
+     }
+/*fim do cabeçalho */
+
+/*texto das olimpíadas*/
+#texto{
+    text-align: right 30px;
+    margin-top: 0px; /* Move o texto para baixo */
+    margin-left: 100px; /* Move o texto para a direita */
+
+}
+/*fim do texto das olimpíadas*/
+
+/*simbolo das olimpiadas*/
+.simbolo{
+    top: -70px;
+    width: 80px;
+    height: 0px auto;
+    margin: 0px auto;
+    position: relative;
+    margin-left: 728px; /* Move o texto para a direita */
+
+        }
+/*fim do simbolo*/
+
+/*Foto da rebeca*/
+.rebeca{
+    top:-4px;
+    width: 700px;
+    height: 0px auto;
+    margin: 0px auto;
+    position: relative;
+        }
+/*Fim da foto da rebeca*/
+
+/*início da section*/
+#section{
+  width:900px;
+  height:830px;
+  background:hsl(57, 100%, 91%);
+  margin:15px auto; /*sem pixel pode ser % ou em todos*/
+  border-radius: 10px; /* Bordas arredondadas para os links */
+  }
+
+.article{
+  width:700px;
+  margin-top: 0px; /* Move o texto para baixo */
+  margin-left: 100px; /* Move o texto para a direita */
+  text-align: justify;
+  }
+/*fim da section */
+/*Fim do HOME*/
+
+/*Inicio do SOBRE*/	
+#section1{
+    width:900px;
+    height:2415px;
+    background:hsl(57, 100%, 91%);
+    margin:15px auto; /*sem pixel pode ser % ou em todos*/
+    border-radius: 10px; /* Bordas arredondadas para os links */
+    }
+  
+    .antigo{
+        width: 390px;
+        height: 0px auto;
+        top: -250px; /* Move o texto para baixo */
+        margin-left: 480px; /* Move o texto para a direita */
+        position: relative;
+            }
+    
+    .article1{
+        width:390px; 
+        top: 14px; /* Move o texto para baixo */
+        margin-left: 40px; /* Move o texto para a direita */
+        text-align: justify;
+        position: relative;
+            } 
+    
+    #texto1{
+        text-align: right 30px;
+        top: -170px; /* Move o texto para baixo */
+        margin-left: 100px; /* Move o texto para a direita */
+        position: relative;
+            }
+            
+    .andrade{
+        width: 390px;
+        height: 0px auto;
+        top: -143px; /* Move o texto para baixo */
+        margin-left: 40px; /* Move o texto para a direita */
+        position: relative;
+            }
+    
+    .article2{
+        width:390px; 
+        top: -410px; /* Move o texto para baixo */
+        margin-left: 480px; /* Move o texto para a direita */
+        text-align: justify;
+        position: relative;
+            } 
+
+#texto2{
+        text-align: right 30px;
+        top: -330px; /* Move o texto para baixo */
+        position: relative;
+                    }
+
+.article3{
+        width:580px; 
+        top: -300px; /* Move o texto para baixo */
+        text-align: justify;
+        margin-left: 185px; /* Move o texto para a direita */
+        position: relative;
+                            } 
+
+.toquio{
+    width: 580px;
+    height: 0px auto;
+    top: -398px; /* Move o texto para baixo */
+    margin-left: 185px; /* Move o texto para a direita */
+    position: relative;
+              }
+
+#texto3{
+        text-align: right 0px;
+        top: -270px; /* Move o texto para baixo */
+        position: relative;
+                }
+
+.article4{
+        width:580px; 
+        top: -240px; /* Move o texto para baixo */
+        margin-left: 185px; /* Move o texto para a direita */
+        text-align: justify;
+        position: relative;
+              } 
+
+.preparacao{
+    width: 580px;
+    height: 0px auto;
+    top: -298px; /* Move o texto para baixo */
+    margin-left: 185px; /* Move o texto para a direita */
+    position: relative;
+          }
+/*Fim do SOBRE*/
+
+/*Inicio do DESTAQUE*/
+#section2{
+  width:900px;
+  height:1830px;
+  background:hsl(57, 100%, 91%);
+  margin:15px auto; /*sem pixel pode ser % ou em todos*/
+  border-radius: 10px; /* Bordas arredondadas para os links */
+  }
+
+ 
+.article5{
+    width:580px; 
+    top: 22px; /* Move o texto para baixo */
+    margin-left: 164px; /* Move o texto para a direita */
+    text-align: justify;
+    position: relative;
+          } 
+
+.giro{
+    width: 580px;
+    height: 0px auto;
+    top: 0px; /* Move o texto para baixo */
+    margin-left: 164px; /* Move o texto para a direita */
+    position: relative;
+                }
+
+ #texto4{
+    text-align: right 200px;
+    top: 75px; /* Move o texto para baixo */
+    position: relative;
+                        }
+
+#texto5{
+    text-align: right 30px;
+    top: -30px; /* Move o texto para baixo */
+    position: relative;
+           }
+              
+.article6{
+    width:580px; 
+    top: 10px; /* Move o texto para baixo */
+    margin-left: 164px; /* Move o texto para a direita */
+    text-align: justify;
+    position: relative;
+          } 
+
+ #texto6{
+    text-align: right 30px;
+    top: -50px; /* Move o texto para baixo */
+    position: relative;
+           }
+                      
+.article7{
+    width:580px; 
+    top: -5px; /* Move o texto para baixo */
+    margin-left: 164px; /* Move o texto para a direita */
+    text-align: justify;
+    position: relative;
+}
+
+.ouro{
+  width: 580px;
+  height: 0px auto;
+  top: -15px; /* Move o texto para baixo */
+  margin-left: 164px; /* Move o texto para a direita */
+  position: relative;
+              }
+/*Fim do DESTAQUE*/
+
+/*Inicio dos DESAFIOS*/
+#section3{
+  width:900px;
+  height:1880px;
+  background:hsl(57, 100%, 91%);
+  margin:15px auto; /*sem pixel pode ser % ou em todos*/
+  border-radius: 10px; /* Bordas arredondadas para os links */
+  }
+
+  
+  .article8{
+    width:580px; 
+    top: -24px; /* Move o texto para baixo */
+    margin-left: 164px; /* Move o texto para a direita */
+    text-align: justify;
+    position: relative;
+}
+
+.simone{
+    width: 580px;
+    height: 0px auto;
+    top: -10px; /* Move o texto para baixo */
+    margin-left:  0px; /* Move o texto para a direita */
+    position: relative;
+          }
+
+#texto7{
+    text-align: right 30px;
+    top: -50px; /* Move o texto para baixo */
+    position: relative;
+           }
+
+.article9{
+    width:580px; 
+    top: -88px; /* Move o texto para baixo */
+    margin-left: 164px; /* Move o texto para a direita */
+    text-align: justify;
+    position: relative;
+           }
+
+.bandeira{
+    width: 580px;
+    height: 0px auto;
+    top: 25px; /* Move o texto para baixo */
+    margin-left: 0px; /* Move o texto para a direita */
+    position: relative;
+                  }
+/*Fim dos DESAFIOS*/
+
+/*Inicio das MEDALHAS*/
+#section4{
+  width:900px;
+  height:2435px;
+  background:hsl(57, 100%, 91%);
+  margin:15px auto; /*sem pixel pode ser % ou em todos*/
+  border-radius: 10px; /* Bordas arredondadas para os links */
+  }
+
+ 
+.article10{
+    width:580px; 
+    top: -32px; /* Move o texto para baixo */
+    margin-left: 164px; /* Move o texto para a direita */
+    text-align: justify;
+    position: relative;
+                         }
+
+.maior{
+    width: 580px;
+    height: 0px auto;
+    top: 0px; /* Move o texto para baixo */
+    margin-left: 164px; /* Move o texto para a direita */
+    position: relative;
+                }
+
+ #texto8{
+    text-align: right 30px;
+    top: -44px; /* Move o texto para baixo */
+    position: relative;
+        }
+
+.article11{
+    width:580px; 
+    top: -95px; /* Move o texto para baixo */
+    margin-left: 164px; /* Move o texto para a direita */
+    text-align: justify;
+    position: relative;
+        }
+
+  .paris{
+    width: 580px;
+    height: 0px auto;
+    top: 0px; /* Move o texto para baixo */
+    margin-left: 1px; /* Move o texto para a direita */
+    position: relative;
+                }
+
+#texto9{
+    text-align: right 30px;
+    top: -50px; /* Move o texto para baixo */
+    position: relative;
+        }
+        
+.article12{
+  width:580px; 
+  top: -90px; /* Move o texto para baixo */
+  margin-left: 164px; /* Move o texto para a direita */
+  text-align: justify;
+  position: relative;
+  transition: transform 0.3s ease; /* Transição suave */
+      }
+
+.article12:hover {
+  transform: scale(1.2); /* Aumenta o tamanho em 20% */
+      }
+
+ .ouro2{
+    width: 580px;
+    height: 0px auto;
+    top: 0px; /* Move o texto para baixo */
+    margin-left: 1px; /* Move o texto para a direita */
+    position: relative;
+                }
+/*Fim de MEDALHAS*/
+
+/*Inicio do CONTATO*/
+#section5{
+  width:900px;
+  height:850px;
+  background:hsl(57, 100%, 91%);
+  margin:15px auto; /*sem pixel pode ser % ou em todos*/
+  border-radius: 10px; /* Bordas arredondadas para os links */
+  }
+
+.article14{
+  max-width: 480px; /* Largura máxima do formulário */
+  margin: 20px auto; /* Centraliza o formulário */
+  padding: 20px; /* Espaçamento interno */
+        }
+
+.campo {
+  width: 100%; /* Largura total dos campos */
+  padding: 10px; /* Espaçamento interno dos campos */
+  margin: 10px 0; /* Espaçamento vertical entre os campos */
+  border: 1px solid #ccc; /* Cor da borda dos campos */
+  border-radius: 4px; /* Bordas arredondadas dos campos */
+  font-size: 16px; /* Tamanho da fonte */
+        }
+
+.botao {
+    width: 20%; /* Largura total dos campos */
+    padding: 4px; /* Espaçamento interno dos campos */
+    margin: 4px; /* Espaçamento vertical entre os campos */
+    border-radius: 4px; /* Bordas arredondadas dos campos */
+    font-size: 15px; /* Tamanho da fonte */
+                }
+
+textarea{resize: none;
+           }
+            
+#footer1{
+    width: 900px;
+    height: 45px;
+    background:#fffc54;
+    float:left;
+    margin:0 auto;
+    padding-top:25px;
+    border-radius: 10px; /* Bordas arredondadas para os links */
+          }
+          
+#footer1 p{
+    font-size: 12px;
+    text-align: center;
+        }
+          
+.rodape1{
+    top: -55px; /* Move o texto para baixo */
+    margin-left: 100px; /* Move o texto para a direita */
+    position: relative;
+          }
+/*Fim do CONTATO*/
+
+/*inicio da rodape */		   
+#footer{
+  width: 900px;
+  height: 45px;
+  margin-left: 222px;
+  background:#fffc54;
+  float:left;
+  padding-top:25px;
+  border-radius: 10px; /* Bordas arredondadas para os links */
+  }
+
+#footer p{
+  font-size: 12px;
+  text-align: center;
+   }
+
+.rodape{
+    top: -55px; /* Move o texto para baixo */
+    margin-left: 100px; /* Move o texto para a direita */
+    position: relative;
+    }
+/*fim  do rodape*/
+    
+/*Responsividade - CSS @media
+  Ele adequa o site para visualizar em dispositivos diferentes*/
+
+/*RESPONSIVIDADE iphone 14 pro max*/
+@media screen and (min-width:430px) and (max-width:932px){
+  body, div{}
+#footer { margin-left:0px;}
+}
+
+/*RESPOVIVIDADE ipad mini*/
+@media screen and (min-width:768px) and (max-width:1024px){
+  body, div{}
+  #footer { margin-left:0px;}		
+}	
